@@ -1,0 +1,699 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+
+body {
+  /*padding-bottom: 40px;*/
+  color: white;
+  background: #5B9AB4;
+}
+
+.container.marketing{
+  width: 100%;
+  /*background: #5B9AB4;*/
+  padding: 0px 5% 0px 5%;
+}
+
+header{
+  width: 100%;
+  background: white;
+  margin: 0px 0px 0px 0px;
+  padding: 2% 50px 100px 50px;
+  color: black;
+  box-shadow: 0 6px 7px rgba(0, 0, 0, 0.4);
+}
+
+header #header-title{
+  float: right;
+  margin-top: 5%;
+  width: 60%;
+}
+
+header #header-quote{
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1.3em !important;
+}
+
+header #image-head{
+  float: left;
+  width: 20%;
+}
+
+header img{
+  margin: 0% 2% 0% 5%;
+  max-width: 150%;
+  height: auto;
+}
+
+header #header-info{
+  clear: both;
+  width: 100%;
+  color: #333333;
+  padding-top: 1%;
+  padding-left: 20%;
+  padding-right: 20%;
+  font-size: 1.2em;
+}
+
+#header-text p{
+  display: inline;
+}
+
+#header-text #plus10-highlight{
+  font-size: 1.3em !important;
+  font-weight: bold !important;
+  font-style: italic !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  display: inline;
+}
+
+header #header-info #header-highlight{
+  font-size: 1.3em;
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  /*width: 100px;*/
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+  width: 100%;
+}
+.navbar-wrapper .navbar {
+  font-size: 1em !important;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+nav .navbar-nav a:hover{
+  text-decoration: none;
+}
+
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  margin-top: 60px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 120px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  /*color: black !important;*/
+  letter-spacing: -1px;
+}
+
+.featurette-heading span{
+  color: black;
+  font-weight: bold;
+}
+
+.col-md-5 img{
+  margin-top: 10%;
+  max-width: 100%;
+  box-shadow: 3px 5px 7px black;
+} 
+
+blockquote{
+  color: white;
+  font-size: medium;
+  font-style: italic;
+  text-align: left;
+  padding-bottom: 5px;
+  letter-spacing: .05em;
+}
+
+.quote-credit {
+  font-weight: normal;
+  color: black;
+}
+
+/* styles for the email form
+  ----------------------------------- */
+
+#notify {
+  margin:0 auto;
+  margin-bottom: 50px;
+  background:#006666;
+  width:500px;
+  padding:10px;
+  color: black;
+  text-align:center; 
+  font-family:Verdana,Arial,sans-serif; 
+  border:1px solid black;
+}
+
+#message{
+  border:1px solid gray;
+  padding:5px;
+}
+
+#submit-button{
+  padding:5px;
+  color: black;
+}
+
+#email{
+  padding:10px;
+  margin:10px;
+}
+
+
+
+/*form .contact-form #email{
+  color: black;
+  background
+}
+*/
+
+/* FOOTER STYLE
+  -----------------------------------*/
+    
+footer{
+  width: 100%;
+  padding-top: 30px;
+  margin-top: 80px;
+  clear: both;
+  float: left;
+  font-family: Arial, Helvetica, Verdana, sans-serif;
+  color: white;
+  font-size: .75em;
+  background: black;
+  opacity: .9;
+  line-height: 1.5em;
+  letter-spacing: .1em;
+  font-weight: normal;
+  padding: 50px 0px 0px 0px;
+}
+
+footer a{
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover{
+  text-decoration: none;
+  font-size: 1.2em;
+  color: white;
+  font-weight: bold;
+
+  transition: 2.5s;
+}
+
+footer a:visited{
+  text-decoration: none;
+  color: white;
+}
+
+footer a:link{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:active{
+    text-decoration: none;
+    color: white;
+}
+
+footer .footer-right #back-top{
+  text-decoration: none;
+  position: absolute;
+  margin-left: 9%;
+  font-weight: bold;
+  color: white;
+}
+
+
+footer #footerTop{
+  width: 100%;
+  clear: both;
+  float: left;
+  text-align: center;
+}
+
+footer #footerBottom{
+  width: 100%;
+  clear: both;
+  float: left;
+   text-align: center;
+}
+
+footer #copyright{
+  clear: both;
+  float: left;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+
+/* To be trimmed down when finalised */
+
+
+footer .twit{
+  float: left;
+  width: 33%;
+}
+
+footer .face{
+  float: left;
+  width: 33%;
+}
+
+footer .linkdIn{
+  float: left;
+  width: 33%;
+}
+
+footer .address{
+  float: left;
+  width: 33%;
+}
+
+footer .email{
+  float: left;
+  width: 33%;
+}
+
+footer #back-top{
+  margin-top: 4%;
+  font-size: 1.2em;
+}
+
+
+
+
+
+/* STYLE FOR THE MENTOR PAGE
+  -----------------------------------*/
+
+.form-horizontal{
+  width: 60%;
+  margin: auto;
+  padding: 2%;
+  box-shadow: 2px 5px 7px;
+}
+
+.form-horizontal textarea{
+  margin-left: 10%;
+  margin-bottom: 5%;
+}
+
+.form-horizontal .btn .btn-primary{
+  float: left;
+}
+
+.form-horizontal{
+  margin-bottom: 15%;
+}
+
+
+
+/* STYLE FOR THE PARTNER PAGE
+  -----------------------------------*/
+
+.row-partners{
+  margin-top: 60px;
+}
+
+
+
+
+/* style for the about page
+  -----------------------------------*/
+
+/*.about{
+  font-size: 1.1em;
+  padding: 0px 10px 10px 20px;
+}
+
+#row-about{
+  margin-top: 60px; 
+  line-height: 1.7em;
+}
+
+#about-quote{
+  padding-top: 0px;
+  font-size: 1.6em;
+  font-style: italic;
+  font-weight: bold;
+  font-family: new times roman;
+  letter-spacing: .1em;
+  line-height: 2.5em;
+  text-shadow: 2px 2px black;
+  text-indent: 20px;
+}
+
+#quotation{
+  font-size: 3.5em;
+  text-shadow: 3px 5px gray;
+  font-style: italic;
+  font-family: new times roman;
+
+}*/
+
+
+
+
+
+/* STYLE FOR THE ALTERNATIVE ABOUT PAGE
+  -----------------------------------*/
+
+#about-body{
+  width: 100%;
+  background-image: url(../img/IMG_0257.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.wrapper{
+  width: 100%;
+
+ /* background: black url(../img/IMG_0257.jpg) no-repeat;
+  background-size: 110% auto;*/
+}
+
+#about-section{
+  width: 90%;
+  margin-left: 10%;
+  margin-top: 50px;
+  background: #1D587D;
+  opacity: .9;
+}
+#first-about{
+  clear: both;
+  float: left;
+  width: 90%;
+  font-size: .9em;
+  margin: auto;
+  background: #1D587D;
+  box-shadow: 0 6px 7px black;
+  padding-top: 50px;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 2%;
+}
+
+#first-about h3{
+  text-align: center;
+}
+
+#about-center{
+  text-align: center;
+  line-height: 1.8em;
+}
+
+#block-about{
+  font-size: 1.1em;
+  padding-left: 30px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+#second-about{
+  clear: both;
+  float: left;
+  background: #1D587D;
+  box-shadow: 0 6px 7px black;
+  width: 90%;
+  font-size: .9em;
+  padding-bottom: 2%;
+}
+
+#second-about h3{
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 4%;
+}
+
+#second-about{
+  margin-top: 50px;
+}
+
+#second-about p{
+  /*float: left;
+  width: 100%;*/
+  padding-left: 2.5%;
+}
+
+#second-about img{
+  float: right;
+  max-width: 100%;
+  padding: 0px 20px 20px 20px;
+}
+
+#indent{
+  padding-left: 15%;
+}
+
+#highlight{
+  font-weight: bold;
+  font-style: italic;
+  padding: 0px 4% 0px 4%;
+} 
+
+
+
+
+
+
+
+
+
+/*/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media screen and (max-width: 768px) {
+
+  header #header-info{
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: .1em;
+}
+
+  header #header-title{
+    width: 0% !important;
+    visibility: hidden !important;
+    display: none !important;
+  }
+
+  header #image-head{
+    float: left;
+    width: 100%;
+  }
+
+  header #image-head{
+    margin-left: 30%;
+  }
+
+  header #header-info{
+  clear: both;
+  width: 100%;
+  padding-top: 1%;
+  padding-left: 20%;
+  padding-right: 20%;
+  font-size: 1.2em;
+}
+
+  
+
+  /* Navbar positioning */
+  .navbar-wrapper {
+    margin-top: 0px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+ .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+
+  .col-md-5 img{
+  margin-top: 50px;
+  } 
+}
+
+/*@media screen and (max-width: 500px){
+
+   header #image-head{
+    float: left;
+    width: 100%;
+  }
+
+  header #image-head{
+    margin-left: 30%;
+  }
+
+}*/
+
+/*@media screen and (max-width: 400px){
+
+   header #image-head{
+    float: left;
+    width: 100%;
+  }
+
+  header #image-head{
+    margin-left: 15%;
+  }
+
+}*/
+
+@media screen and (min-width: 320px) and (max-width: 500px ){
+
+  header{
+  margin: 0px 0px 50px 0px;
+  padding: 2% 50px 50px 50px;
+}
+
+   header #image-head{
+    float: left;
+    width: 100%;
+  }
+
+  header #image-head{
+    margin-left: 10%;
+  }
+
+  header #header-quote{
+  display: none;
+}
+
+  header #header-info{
+    padding-top: 7%;
+    padding-bottom: 0px;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: 1em;
+  }
+
+  header #header-info #header-highlight{
+  display: none;
+}
+
+  .marketing .col-lg-4 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    padding-bottom: 0px !important;
+    text-align: center;
+  }
+
+  .featurette-heading {
+    font-weight: 300;
+    font-size: 1.5em;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+
+  blockquote{
+    font-size: small;
+    padding-bottom: 5px;
+    font-weight: bold;
+  }
+
+  .col-md-5 img{
+    margin-top: 2%;
+  } 
+
+  .col-md-5{
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
+
+  .col-md-7{
+    margin-top: 100px;
+  }
+
+  br{
+    display: none;
+  }
+
+  .featurette-divider{
+    display: none;
+  }
+
+  #about-section{
+
+    width: 100%;
+    margin: 0px;
+  }
+
+  #about-section p{
+    font-style: justify;
+  }
+
+  #first-about{
+    width: 100%;
+     box-shadow: 0 6px 7px black;
+  }
+
+  #second-about{
+  
+  width: 100%;
+   box-shadow: 0 6px 7px black;
+  
+
+
+}
+
